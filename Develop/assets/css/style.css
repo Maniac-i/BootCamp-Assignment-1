@@ -4,10 +4,23 @@
     margin: 0;
 }
 
+/* makes the pages background color grey */
 body {
     background-color: #d9dcd6;
 }
 
+/* makes all anchor elements have white font */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* makes the text of all p elements 16px */
+p {
+    font-size: 16px;
+}
+
+/* sets the padding, font, font color, and background color of the header element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +28,17 @@ header {
     color: #ffffff;
 }
 
+/* sets h1 font size to 48px */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* changes the color of SEO to grey */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* sets the characteristics of the nav bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,30 +47,44 @@ header nav {
     font-size: 20px;
 }
 
+/* removes the bullets from the listed items */
 header nav ul {
     list-style-type: none;
 }
 
+/* sets the list items to display inline */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* sets the characteristics of the main image element */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+}
+
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main img {
+    max-height: 200px;
 }
 
 .float-left {
@@ -68,10 +97,9 @@ p {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 aside {
@@ -101,23 +129,6 @@ aside img {
     max-width: 150px;
 }
 
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main img {
-    max-height: 200px;
-}
-
-main h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 footer {
     padding: 30px;
