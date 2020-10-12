@@ -1,3 +1,4 @@
+/* zeros out the padding and margin of the entire document */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -67,13 +68,14 @@ header nav ul li {
     background-position: center;
 }
 
-
+/* sets width and margin of main element */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styles the main section */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,25 +85,30 @@ main section {
     color: #ffffff;
 }
 
+/* sets the height of the images in the main element */
 main img {
     max-height: 200px;
 }
 
+/*float the image in the main element to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*floats the image in the main element to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets the font size and bottom margin of the h2 elements of the main element */
 main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* styles the aside element and floats it to the right */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -113,23 +120,26 @@ aside {
     background-color: #2589bd;
 }
 
+/* styles the section element that ar children to the aside element */
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* styles the h3 elements of the aside element */
 aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* styles the images in the aside element */
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* styles the footer element and clears it below the main and aside elements */
 footer {
     padding: 30px;
     clear: both;
@@ -137,6 +147,7 @@ footer {
     text-align: center;
 }
 
+/* sets the font size of the footers h2 text */
 footer h2 {
     font-size: 20px;
 }
