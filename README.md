@@ -4,8 +4,7 @@ Assignment 1 for OSU Bootcamp
 
 This is assignment 1 for Ohio State Universities Coding Bootcamp. The objective of this assignment was to refractor given code to make it more accessible without changing the functionality of the web page. This was done mainly by using semantic HTML, which, in doing so allowed me to consolidate a lot of the CSS code. The final webpage should render like the image below:
 
-![Final Product]
-(https://github.com/Maniac-i/Bootcamp-Assignment-1/blob/main/Assets/01-html-css-git-homework-demo.png)
+![Final Product](https://github.com/Maniac-i/Bootcamp-Assignment-1/blob/main/Assets/01-html-css-git-homework-demo.png)
 
 This project was built to accomplish several things:
 
