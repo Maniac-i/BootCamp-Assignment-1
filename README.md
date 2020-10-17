@@ -8,15 +8,11 @@ This is assignment 1 for Ohio State Universities Coding Bootcamp. The objective 
 
 This project was built to accomplish several things:
 
--Intorduce me to HTML.
-
--Introduce me to CSS.
-
--Learn about semantic HTML and how to incorporate it properly.
-
--Learn about accessiblity. 
-
--Put into practice the things learned by making an exisiting webpage more accessible. 
+- Intorduce me to HTML.
+- Introduce me to CSS.
+- Learn about semantic HTML and how to incorporate it properly.
+- Learn about accessiblity. 
+- Put into practice the things learned by making an exisiting webpage more accessible. 
 
 Ultimately, I learned the importance of semantic HTML. How clean, concise, code can make a big difference for individuals having to use screen readers. This was a fun assignment that went beyond just learning proper HTML/CSS syntax and properties.
 
