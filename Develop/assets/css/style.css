@@ -39,7 +39,7 @@ p {
     color: #d9dcd6;
 }
 
-/* sets the characteristics of the nav bar */
+/* syles navbar and its children */
 .navbar {
     padding-top: 15px;
     margin-right: 20px;
@@ -48,18 +48,18 @@ p {
     font-size: 20px;
 }
 
-/* removes the bullets from the listed items */
+
 .navbar-elements {
     list-style-type: none;
 }
 
-/* sets the list items to display inline */
+
 .navbar-item {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* sets the characteristics of the main image element */
+/* styles the image used for the hero element */
 .hero {
     height: 800px;
     width: 100%;
@@ -68,14 +68,13 @@ p {
     background-position: center;
 }
 
-/* sets width and margin of main element */
+/* styles the main section and its children */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* styles the main section */
 .main-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,27 +84,24 @@ main {
     color: #ffffff;
 }
 
-/*float the image in the main element to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
-/*floats the image in the main element to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
     max-height: 200px;
 }
 
-/* sets the font size and bottom margin of the h2 elements of the main element */
 .section-header {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* styles the aside element and floats it to the right */
+/* styles the aside section and its children */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -117,26 +113,26 @@ aside {
     background-color: #2589bd;
 }
 
-/* styles the section element that ar children to the aside element */
+
 .aside-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* styles the h3 elements of the aside element */
+
 .aside-header {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* styles the images in the aside element */
+
 .aside-img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* styles the footer element and clears it below the main and aside elements */
+/* styles the footer element and its children */
 footer {
     padding: 30px;
     clear: both;
@@ -145,7 +141,7 @@ footer {
     display: none;
 }
 
-/* sets the font size of the footers h2 text */
+
 .footer-header {
     font-size: 20px;
 }
