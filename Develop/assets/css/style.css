@@ -22,7 +22,7 @@ p {
 }
 
 /* sets the padding, font, font color, and background color of the header element */
-header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -30,17 +30,17 @@ header {
 }
 
 /* sets h1 font size to 48px */
-header h1 {
+.horiseon {
     display: inline-block;
     font-size: 48px;
 }
 /* changes the color of SEO to grey */
-header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
 /* sets the characteristics of the nav bar */
-header nav {
+.navbar {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -49,12 +49,12 @@ header nav {
 }
 
 /* removes the bullets from the listed items */
-header nav ul {
+.navbar-elements {
     list-style-type: none;
 }
 
 /* sets the list items to display inline */
-header nav ul li {
+.navbar-item {
     display: inline-block;
     margin-left: 25px;
 }
@@ -76,7 +76,7 @@ main {
 }
 
 /* styles the main section */
-main section {
+.main-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -85,25 +85,22 @@ main section {
     color: #ffffff;
 }
 
-/* sets the height of the images in the main element */
-main img {
-    max-height: 200px;
-}
-
 /*float the image in the main element to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
 /*floats the image in the main element to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
 
 /* sets the font size and bottom margin of the h2 elements of the main element */
-main h2 {
+.section-header {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -121,19 +118,19 @@ aside {
 }
 
 /* styles the section element that ar children to the aside element */
-aside section {
+.aside-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* styles the h3 elements of the aside element */
-aside h3 {
+.aside-header {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* styles the images in the aside element */
-aside img {
+.aside-img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -149,6 +146,6 @@ footer {
 }
 
 /* sets the font size of the footers h2 text */
-footer h2 {
+.footer-header {
     font-size: 20px;
 }
